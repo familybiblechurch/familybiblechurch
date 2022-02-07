@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<?php else : ?>
 
-				<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">Family Bible Church<span class="brand-sub"> | Test</span></a>
+				<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">Family Bible Church<span class="brand-sub"> | Knoxville</span></a>
 
 			<?php endif; ?>
 

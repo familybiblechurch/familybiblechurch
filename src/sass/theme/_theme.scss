@@ -1,1 +1,56 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+.navbar-brand{
+    a{
+        text-decoration: none;
+    }
+    font-weight: 600;
+    img{
+        max-width: 250px;
+    }
+}
+
+.brand-sub{
+    font-weight: 200;
+}
+.nav-bg{
+background-color:transparent;
+}
+
+.post-5{
+    .entry-title{
+        display: none;
+    }
+}
+
+.wrapper{
+    padding:0;
+}
+
+.fixed-top{
+    transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    .navbar-brand{
+        color:$primary;
+    }
+    .nav-link{
+        color:$primary;
+    }
+  }
+
+  .new-here{
+    margin-top:40px !important;
+    width: calc(33% - var(--wp--style--block-gap, .5em)*0.5) !important;
+    @media(max-width:468px){
+        font-size:20px !important;
+    }
+        a{
+        border:solid 4px !important;
+        }
+  }
+
+  #verse-of-the-month{
+      margin-top:50px !important;
+  }
