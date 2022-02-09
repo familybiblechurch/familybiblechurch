@@ -17128,19 +17128,6 @@ figure.woocommerce-product-gallery__wrapper {
   color: #230d09;
 }
 
-.new-here {
-  margin-top: 40px !important;
-  width: calc(33% - var(--wp--style--block-gap, 0.5em) * 0.5) !important;
-}
-@media (max-width: 468px) {
-  .new-here {
-    font-size: 20px !important;
-  }
-}
-.new-here a {
-  border: solid 4px !important;
-}
-
 #verse-of-the-month {
   margin-top: 50px !important;
 }
